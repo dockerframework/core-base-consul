@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-DOCKER_IMAGE="dockerframework/core-base"
+DOCKER_IMAGE="dockerframework/core-base-consul"
 DOCKER_TAG="latest"
 
 #### Halt script on error
