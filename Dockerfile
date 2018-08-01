@@ -21,7 +21,7 @@ FROM dockerframework/core-base:latest
 
 MAINTAINER "Laradock Team <mahmoud@zalt.me>"
 
-ENV CONSULTEMPLATE_VERSION=0.19.4
+ENV CONSULTEMPLATE_VERSION=0.19.5
 
 RUN mkdir -p /var/lib/consul && \
     addgroup -g 500 -S consul && \
