@@ -1,4 +1,4 @@
-FROM dockerframework/core-base:latest
+FROM dockerframework/core-base:alpine
 
 # ================================================================================================
 #  Inspiration: Docker Alpine (https://github.com/bhuisgen/docker-alpine)
