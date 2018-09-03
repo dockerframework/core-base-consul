@@ -1,4 +1,4 @@
-IMAGE = dockerframework/core-base-consul
+IMAGE = dockerframework/core-base-consul:alpine
 
 clean-local:
 	docker rmi $(CLEAN_OPTIONS) $(IMAGE):$(TAG) || true

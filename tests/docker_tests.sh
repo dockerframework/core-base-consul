@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 DOCKER_IMAGE="dockerframework/core-base-consul"
-DOCKER_TAG="latest"
+DOCKER_TAG="alpine"
 
 #### Halt script on error
 set -e

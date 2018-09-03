@@ -6,6 +6,7 @@ services:
 # CORE-BASE-CONSUL
 #================================================================================================
   core-base-consul:
+    image: dockerframework/core-base-consul:alpine
     ports:
       - "1234:1234"
     volumes:
