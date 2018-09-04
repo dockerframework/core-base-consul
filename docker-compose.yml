@@ -6,7 +6,10 @@ services:
 # CORE-BASE-CONSUL
 #================================================================================================
   base-consul:
-    image: dockerframework/core-base-consul:ubuntu
+    restart: unless-stopped
+    build:
+      context: .
+    # image: dockerframework/core-base-consul:ubuntu
     ports:
       - "1234:1234"
     volumes:
